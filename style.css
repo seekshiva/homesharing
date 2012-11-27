@@ -1,0 +1,10 @@
+body { margin: 0; background-color: #111;  }
+#head { text-align: center; background: rgba(48, 48, 48, .85); border-bottom: 2px solid #666; color: #ddd; padding: .7em; font-size: 1.3em; position: fixed; width: 100%; top: 0; z-index: 100; cursor: default; text-shadow: 1px 1px 5px #aaa; box-shadow: 0 1px 20px #666; }
+
+#list { margin-top: 100px;  }
+#list .video { padding: 10px; padding-right: 50px; padding-left: 50px; text-align: center; width: 130px; cursor: pointer; display: inline-block; text-decoration: none; }
+#list .video img { box-shadow: 2px 2px 10px #333; opacity: .8; width: 130px; }
+#list .video .title { color: #eee; text-shadow: 1px 1px 1px #aaa; font-size: .8em; }
+
+#list .video:hover img { box-shadow: 2px 2px 10px #555; opacity: 1; }
+#list .video .title { height: 50px;  color: #f1f1f1; }
